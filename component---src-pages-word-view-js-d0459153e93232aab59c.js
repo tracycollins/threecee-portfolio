@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{ENKD:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),r=t.n(a);e.default=function(n){return r.a.createElement(r.a.Fragment,null)}}}]);
+//# sourceMappingURL=component---src-pages-word-view-js-d0459153e93232aab59c.js.map

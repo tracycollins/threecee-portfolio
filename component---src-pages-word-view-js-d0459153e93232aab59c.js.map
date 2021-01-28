@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/WordView.js"],"names":["WordView","props"],"mappings":"2FAAA,gCAUeA,UARE,SAACC,GAChB,OACE","file":"component---src-pages-word-view-js-d0459153e93232aab59c.js","sourcesContent":["import React from 'react';\n\nconst WordView = (props) => {\n  return (\n    <>\n    </>\n  )\n\n}\n\nexport default WordView;\n"],"sourceRoot":""}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Container from '@material-ui/core/Container';
 import Tabs from '@material-ui/core/Tabs';
@@ -39,7 +39,8 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 
-const IndexPage = () => {
+const IndexPage = (props) => {
+
   const classes = useStyles()
   const [tabValue, setTabValue] = useState(0)
   const [currentTab, setCurrentTab] = useState("word")
@@ -67,7 +68,7 @@ const IndexPage = () => {
   const displayTab = (tab) => {
     switch (tab){
       case "demos":
-        return <DemosView />
+        return <DemosView currentTab={currentTab}/>
       case "info":
         return <InfoView />
       default:

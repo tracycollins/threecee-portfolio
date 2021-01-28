@@ -52,7 +52,6 @@ const InfoView = (props) => {
             <CardContent >
                 <Typography>description</Typography>
             </CardContent>
-            <CardMedia/>
           </Card>
         </Grid>
       </Grid>
